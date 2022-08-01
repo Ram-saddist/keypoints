@@ -74,3 +74,7 @@ function pos(){
 			}).then((res)=>console.log(res))
 			.catch((err)=>console.log(err))
 		}
+
+starting multiple commands at a time
+
+"dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\""
