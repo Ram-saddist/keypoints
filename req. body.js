@@ -78,3 +78,16 @@ function pos(){
 starting multiple commands at a time
 
 "dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\""
+we can use cd also to go to a specific directory
+
+for working with .env files in node use 
+require("dotenv").config(); npm install dotenv
+
+in React
+REACT_APP_NAME & process.env.REACT_APP_NAME
+
+
+
+
+
+
